@@ -1,5 +1,4 @@
-(ns gitpod.core
-  (:gen-class))
+(ns gitpod.core)
 
 (defn -main []
   (prn "Hello, World"))
