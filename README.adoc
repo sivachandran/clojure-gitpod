@@ -1,0 +1,25 @@
+## About:
+
+This project contains the example snippets for the first hands-on 
+session of Chennai CUG (Clojure User Group).
+
+## Usage:
+
+This is designed to be compatible with gitpod, along with required plugins.
+
+To load it in gitpod,
+
+- Click on *Gitpod* button at the top of the project.
+- Prefix `gitpod.io#` in the url before gihub.com., ie., your effective URL will be `https://gitpod.io/#github.com/...`
+
+As you do any of the above, you'll be required to login/create an account in gitpod. 
+
+////
+
+##  Project Structure:
+ 
+ - The `ex.*` contains the examples.
+
+ To be updated.
+
+ ////
