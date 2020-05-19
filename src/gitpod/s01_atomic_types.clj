@@ -1,4 +1,4 @@
-(ns gitpod.ex01-basics)
+(ns gitpod.s01-atomic-types)
 
 ;; Below are some of main atomic data-types worth knowing
 ;; Everything that we have in clojure are Java objects. 
@@ -36,3 +36,7 @@ false
 nil
 
 ;; There are some more , but we'll get there once you are ready.
+
+;; Though we showcase by evaluating. Clojure is compile language.
+;; The expressions are dynimcally compile to Java classes, using
+;; ASM Library and the classes are executed.
