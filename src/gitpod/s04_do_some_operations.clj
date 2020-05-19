@@ -1,4 +1,4 @@
-(ns gitpod.ex02-collections
+(ns gitpod.s04-do-some-operations
   (:use clojure.repl))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -27,6 +27,18 @@
 ;; are in descending order
 (< 1 2 3)
 (< 1 4 2 3)
+
+;; Logical operators
+;; The operands can be nested. Keeping it simple for now.
+
+;; Short-circuit and
+(and true false)
+
+;; Short-circuit or
+(or false false true)
+
+;; Negation
+(not false)
 
 ;; Conditionals if-else
 (if 

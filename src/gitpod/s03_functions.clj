@@ -1,4 +1,4 @@
-(ns gitpod.ex02-collections
+(ns gitpod.s03-functions
   (:use clojure.repl))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -40,7 +40,6 @@
   (println "Welcome to the Clojure world!!!")
   1)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Function with parameter
 (defn
   welcome-name

@@ -1,4 +1,4 @@
-(ns gitpod.ex02-collections
+(ns gitpod.s06-var
   (:use clojure.repl))
 
 ;; def - create var in current namespace

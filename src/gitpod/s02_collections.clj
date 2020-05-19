@@ -1,4 +1,4 @@
-(ns gitpod.ex02-collections)
+(ns gitpod.s02-collections)
 
 ;; Below are some of the collections worth knowing.
 
@@ -18,5 +18,8 @@
 ;; Indexed elements
 {:one 1 :two 2 :three 3}
 
+;; Clojure collections are immutable. We'll come there shortly.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Excercise
 ;; Try creating a vector, list, set, map
