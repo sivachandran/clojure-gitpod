@@ -7,12 +7,9 @@ session of Chennai CUG (Clojure User Group).
 
 This is designed to be compatible with gitpod, along with required plugins.
 
-To load it in gitpod,
+You can start the workspace from this https://gitpod.io/#https://github.com/chclj/clojure-gitpod[GitPod link]
 
-- Click on *Gitpod* button at the top of the project.
-- Prefix `gitpod.io#` in the url before gihub.com., ie., your effective URL will be `https://gitpod.io/#github.com/...`
-
-As you do any of the above, you'll be required to login/create an account in gitpod. 
+You'll be required to login/create a free account in gitpod. 
 
 ////
 
