@@ -41,8 +41,8 @@
 (not false)
 
 ;; Conditionals if-else
-(if 
-  (> 3 1);; Condition
+(if
+ (> 3 1);; Condition
   (print 3) ;; True branch
   (print 1)) ;; False branch
 

@@ -3,8 +3,10 @@
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Find the sum of square of all elements in ex-vec
-;; Solve the first problem of project euler
+;; - Find the sum of square of all elements in ex-vec
+;; - Read and practice filter operation
+;; - Solve the first problem of project euler
+;; - Read about immutable datastructures
 
 ;; Further Reads:
 ;; -  Beating the Averages - http://www.paulgraham.com/avg.html - An article on how LISP helped Paul G to stay as a productive and beat his competitors.
