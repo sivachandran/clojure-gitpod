@@ -29,8 +29,6 @@
 ;; This avoids losing precision by rounding-off the decimals.
 22/7
 
-22/2
-
 ;; boolean / java.lang.Boolean
 true
 false
