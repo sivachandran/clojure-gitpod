@@ -5,7 +5,7 @@
  
  - Open `File` > `Settings` > `Open Keyboard Shortcuts`.
  - Search for "Evaluate Current Form".
- - Update the keybinding to `alt+/` as shown below.
+ - Update the keybinding - (you have to type each character of) `alt+/` as shown below.
 
 ![alt text](images/key_binding.png "Keyboard config")
 
