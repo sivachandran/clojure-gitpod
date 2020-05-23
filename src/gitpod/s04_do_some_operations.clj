@@ -5,32 +5,39 @@
 ;; Below are some of the operators to get
 ;; get comfortable with the syntax
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;; Add
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (+ 1 2)
 
 ;; Multiply
-(* 4 3)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(* 4 3 2)
 
 ;; Equality check
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Yeah you can check multiple values at once
 (= 1 1 1)
+(= 1 2 3)
 
-;; Descending
+
+;; Descending (not exactly greater than)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; This is not greater than per se, but check if the
 ;; following numbers are in descending order
 (> 4 3)
 (> 4 3 2)
 (> 4 3 4)
 
-;; Ascending
+;; Ascending (not exactly less than)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Simliar to the above you check if the number 
 ;; are in descending order
 (< 1 2 3)
 (< 1 4 2 3)
 
 ;; Logical operators
-;; The operands can be nested. Keeping it simple for now.
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Short-circuit and
 (and true false)
 
@@ -40,11 +47,14 @@
 ;; Negation
 (not false)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; NOTE: The operands can be nested. Keeping it simple for now.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;; Conditionals if-else
-(if
- (> 3 1);; Condition
-  (print 3) ;; True branch
-  (print 1)) ;; False branch
+(if (> 3 1);; Condition
+  3 ;; True branch
+  1) ;; False branch
 
 ;; Nested expressions
 ;; Each nested expression evaluates to its value and

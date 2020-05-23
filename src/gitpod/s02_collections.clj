@@ -3,16 +3,19 @@
 ;; Below are some of the collections worth knowing.
 
 ;; Vector
-;; Sequential collection
-[1 2 3]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Sequential collection - equivalent of array/arraylist
+[1 2 "three"]
 
 ;;List
-;; Sequential collection, essentially linked list
-'(1 2 3)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Sequential collection, essentially a linked list
+'(1 2 3 true)
 
 ;; Set
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Unique elements
-#{1 2 3}
+#{1 2 3 "four"}
 
 ;; Map
 ;; Indexed elements

@@ -1,4 +1,5 @@
-(ns gitpod.s01-atomic-types)
+(ns gitpod.s01-atomic-types
+  (:use clojure.repl))
 
 ;; Below are some of main atomic data-types worth knowing
 ;; Everything that we have in clojure are Java objects. 
@@ -20,22 +21,25 @@
 
 ;; Keyword / clojure.lang.Keyword
 ;; To start with consider this something like a string, 
-;; but this has special properties in Clojure #Verify
-:A
+;; but this has special properties in Clojure
+:some-key
 
 ;; Ratio /  clojure.lang.Ratio
 ;; Any fraction that doesn't evaluated to a integer will be maintained as Ratios
-12/7
+;; This avoids losing precision by rounding-off the decimals.
+22/7
 
-;; Boolean / java.lang.Boolean
+22/2
+
+;; boolean / java.lang.Boolean
 true
 false
 
 ;; nil
-;; Equivalent of null in Java
+;; Equivalent of null in Java/Javascript, None in Python
 nil
 
-;; There are some more , but we'll get there once you are ready.
+;; There are some more , but we'll get there once you are comfortable.
 
 ;; Though we showcase by evaluating. Clojure is compile language.
 ;; The expressions are dynimcally compile to Java classes, using

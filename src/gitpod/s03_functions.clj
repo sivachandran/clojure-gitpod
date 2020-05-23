@@ -1,13 +1,6 @@
 (ns gitpod.s03-functions
   (:use clojure.repl))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Syntax
-(defn
-  function-name
-  [params]
-  ;; function body
-  )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;Creating your first function
@@ -23,6 +16,16 @@
 ;; Calling the defined function
 (welcome)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; NOTICE: the parathesis around the function name.
+;; Which was not there in the earlier examples.
+;; 
+;; You add parantesis around an expression that you have to evaluate.
+
+;; Fo ex.
+
+welcome ;; This just returns the function that you created
+(welcome) ;; This executes the the function
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; There are no explicit returns in the clojure functions.
@@ -31,9 +34,13 @@
   welcome
   []
   (println "Welcome to the Clojure world!!!")
-  1)
+  (count "Welcome to the Clojure world!!!"))
 
-;; Function with parameter
+;; See the value of count being returned
+(welcome)
+
+;; Function with arity
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defn
   welcome-name
   [name]

@@ -36,3 +36,13 @@ some-space/var1
 
 ;; Throws error as sum is not available outside of the let scope
 sum
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;EXCERCISE: Rewrite the average of 2 number function, using let
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; NOTE: There are additional reference types such as Atoms, Refs.
+;; We'll get there in the upcoming sessions
