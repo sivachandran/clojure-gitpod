@@ -18,5 +18,5 @@ To connect to nREPL,
 
 - Click on the `nREPL` icon at the bottom toolbar.
 - On the list of options opened at the top click on `..(a.k.a. Jack-in)`.
-- Wait for it to load.
+- Wait for it to complete. Lookout for the message *Jack-in done.*.
 - Now you'll be able to open any source file in the form of `*.clj` and place your cursor on the starting parenthesis `(` or ending parenthesis `(` of the expression that you have to evalute and give `alt` +`/` to evaluate.
