@@ -15,7 +15,7 @@ You'll be required to login/create a free account in gitpod.
 
 ## Editor Setup:
 
-Please go through [this](editor_intro.adoc) and setup your editor preference.
+Please go through [this](editor_intro.md) and setup your editor preference.
 
 ## Project organization:
 
